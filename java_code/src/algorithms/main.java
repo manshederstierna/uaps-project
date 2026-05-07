@@ -17,7 +17,6 @@ public class main {
 			intsorter.readData();
 			String time = Long.toString(intsorter.timeToSort());
 			intsorter.write_to_file(time,i,outpath);
-			intsorter.clearArray();
 		}
 		// TODO
 	}
