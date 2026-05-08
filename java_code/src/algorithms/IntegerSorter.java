@@ -7,8 +7,7 @@ import java.util.ArrayList;
 public class IntegerSorter {
     ArrayList<Integer> numbers = new ArrayList<>();
     BufferedReader br;
-    String pathOut;
-    
+
 	public IntegerSorter(String path) {
 		try {
 			this.br = new BufferedReader(new FileReader(path));
