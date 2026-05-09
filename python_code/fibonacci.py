@@ -10,7 +10,7 @@ def fib(n):
     else:
         return fib(n-1) + fib(n-2)
 
-n = 35
+n = 45
 
 for i in range(1000):
     t1 = time.perf_counter_ns()
