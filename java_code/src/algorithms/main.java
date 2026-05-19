@@ -20,10 +20,11 @@ public class main {
 		} */
 
 		String out_path = "../java_fileread_times.txt";
-		for(int i=0; i < 5000; i++){
+
+		for (int i = 0; i < 5000; i++) {
 			FileRead fileread = new FileRead();
 			String time = Long.toString(fileread.readFile());
-			fileread.write_to_file(time,i,out_path);
+			FileRead.write_to_file(time, i, out_path);
 		}
 	}
 
